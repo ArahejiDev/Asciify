@@ -79,5 +79,3 @@ python gif2.py input.gif output.gif --chars " .oO0@" --invert
 - `--remove-bg` uses a simple heuristic: it samples the color of the **top-left pixel of the first frame** as the reference background color. This works well for flat, solid-colored backgrounds but may not work for gradients, noisy backgrounds, or GIFs where the corner pixel isn't representative of the background.
 - The aspect-ratio correction factor (`0.55`) assumes typical monospace character proportions; very unusual fonts may need manual tuning of `--width` to look right.
 - Larger `--width` and `--font-size` values produce sharper, larger, and slower-to-render output GIFs.
-
-Add your license of choice here.
