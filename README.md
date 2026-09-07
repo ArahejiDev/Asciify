@@ -80,6 +80,4 @@ python gif2.py input.gif output.gif --chars " .oO0@" --invert
 - The aspect-ratio correction factor (`0.55`) assumes typical monospace character proportions; very unusual fonts may need manual tuning of `--width` to look right.
 - Larger `--width` and `--font-size` values produce sharper, larger, and slower-to-render output GIFs.
 
-## License
-
 Add your license of choice here.
