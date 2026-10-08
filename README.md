@@ -2,6 +2,19 @@
 
 A small Python CLI tool that converts an animated GIF into an **ASCII-art GIF**, frame by frame, with optional background removal for a transparent result.
 
+## Results
+
+Examples generated with Asciify:
+
+<p align="center">
+  <img src="examples/salidaasdasd.gif" alt="Asciify result 1" width="600">
+</p>
+
+<p align="center">
+  <img src="examples/persona.gif" alt="Asciify result 2" width="600">
+</p>
+
+
 ## How it works
 
 1. Each frame of the source GIF is resized down to a fixed number of character columns.
